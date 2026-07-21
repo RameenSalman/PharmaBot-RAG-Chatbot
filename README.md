@@ -1,4 +1,4 @@
-```md
+
 # PharmaBot — RAG Chatbot
 
 A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation (RAG)**. It answers questions about medicines, pharmacy products, and store policies by retrieving relevant information from local documents and generating responses using Google Gemini.
@@ -149,7 +149,6 @@ streamlit run app.py
 6. Pass retrieved context and conversation history to Gemini.
 7. Generate a grounded response and display retrieved source information.
 
----
 
 ```
 ```
