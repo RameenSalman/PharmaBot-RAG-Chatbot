@@ -1,4 +1,4 @@
-# 💊 PharmaBot — RAG Chatbot
+#  PharmaBot — RAG Chatbot
 
 A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation (RAG)**. It answers questions about medicines, pharmacy products, and store policies by retrieving relevant information from a local knowledge base and generating responses with Google Gemini.
 
@@ -9,7 +9,7 @@ A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation 
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Conversational Q&A** — Ask about medicines, products, prices, and pharmacy policies in natural language.
 - **RAG Pipeline** — Retrieves the most relevant chunks from the knowledge base before generating an answer, reducing hallucinations.
@@ -19,7 +19,7 @@ A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Question
@@ -66,21 +66,13 @@ git clone https://github.com/RameenSalman/PharmaBot-RAG-Chatbot.git
 cd PharmaBot-RAG-Chatbot
 ```
 
-### 2. Create a virtual environment (recommended)
-
-```bash
-python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # macOS / Linux
-```
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
+### 3. Configure environment variables
 
 Create a `.env` file in the project root:
 
@@ -89,17 +81,14 @@ GOOGLE_API_KEY=your_google_api_key
 HF_TOKEN=your_huggingface_token
 ```
 
-### 5. Run the app
+### 4. Run the app
 
 ```bash
 streamlit run app.py
 ```
-
-The app will open at **http://localhost:8501**.
-
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -112,6 +101,3 @@ The app will open at **http://localhost:8501**.
 
 ---
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
