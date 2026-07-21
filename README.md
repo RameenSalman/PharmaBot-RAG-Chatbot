@@ -7,7 +7,7 @@ A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation 
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.57-red?logo=streamlit&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-green)
 ![FAISS](https://img.shields.io/badge/Vector%20Store-FAISS-orange)
-![Gemini](https://img.shields.io/badge/Google-Gemini%202.5%20Flash-yellow?logo=google&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google-Gemini%202.5%20Flash-yellow?logo=google&logoColor=white) 
 
 ---
 
@@ -50,29 +50,29 @@ A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation 
           └────────────────┘
 ```
 
-User Question
-│
-▼
-┌─────────────┐
-│  Streamlit  │
-│  Frontend   │
-└──────┬──────┘
-│
-▼
-┌──────────────────┐
-│ FAISS Retriever  │
-│ (Similarity      │
-│ Search)          │
-└────────┬─────────┘
-│ top-k chunks
-▼
-┌───────────────┐
-│  Gemini 2.5   │
-│  Flash (LLM)  │
-└───────┬───────┘
-│
-▼
-Bot Answer
+              User Question
+                   │
+                   ▼
+            ┌─────────────┐
+            │  Streamlit  │
+            │  Frontend   │
+            └──────┬──────┘
+                   │
+                   ▼
+            ┌──────────────────┐
+            │ FAISS Retriever  │
+            │ (Similarity      │
+            │ Search)          │
+            └────────┬─────────┘
+                     │ top-k chunks
+                     ▼
+            ┌───────────────┐
+            │  Gemini 2.5   │
+            │  Flash (LLM)  │
+            └───────┬───────┘
+                    │
+                    ▼
+                Bot Answer
 
 ```
 
