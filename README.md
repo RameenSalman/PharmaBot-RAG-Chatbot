@@ -64,7 +64,7 @@ A pharmacy customer-support chatbot built with **Retrieval-Augmented Generation 
             │ (Similarity      │
             │ Search)          │
             └────────┬─────────┘
-                     │ top-k chunks
+                     │ top-3 relevant chunks
                      ▼
             ┌───────────────┐
             │  Gemini 2.5   │
@@ -149,6 +149,4 @@ streamlit run app.py
 6. Pass retrieved context and conversation history to Gemini.
 7. Generate a grounded response and display retrieved source information.
 
-
-```
 ```
